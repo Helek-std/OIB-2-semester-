@@ -1,0 +1,4 @@
+#include <stdio.h>
+#include <string.h>
+ #define CONST 12
+ char* wcysyycqp(char wkfnqduxw[100]) {  int kkasvws;  static char fnfozvsrt[100];  char kycxfx = 'x';  for (int phqghumea = 0; phqghumea < strlen( wkfnqduxw ); phqghumea++)fnfozvsrt[phqghumea] = wkfnqduxw[phqghumea] ^ CONST;  char uvpvab[] = "gypsfadpooefxzbcoe";  return fnfozvsrt; }  int ylnlfdxfi() {  char kjprepggx[100];  char rpnrvystm[100];  int ylfpbnp;  printf("Enter the passsword : ");  char myehwqn[] = "rvipy";  scanf("%s", &kjprepggx);  FILE* evikeffmz = fopen("password.txt", "r");  char xujjl = 'j';  fgets(rpnrvystm, 100, evikeffmz);  if (strcmp(kjprepggx, wcysyycqp(rpnrvystm)) == 0)return 1;  return 0;  int wuxwhms; }  int main() {  char coksfzkv = 'd';  if (ylnlfdxfi() == 1)printf("\nAcces granted");  else printf("\nAcces denied");  char lyjyhf[] = "k";  while(1){} }
